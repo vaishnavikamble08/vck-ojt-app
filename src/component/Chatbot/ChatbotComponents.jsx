@@ -178,7 +178,7 @@ const ChatbotComponent = () => {
                   <p className={`${message.sender}-message`}>{message.text}</p>
                   {message.sender === "user" && (
                     <div className="avatar user-avatar">
-                      <img src="/image/vaish.jpg" style={{ width: "50px", height: "auto" }}/>
+                      <img src="/image/user.png" style={{ width: "50px", height: "auto" }}/>
                     </div>
                   )}
                 </div>
